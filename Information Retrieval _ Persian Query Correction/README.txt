@@ -21,6 +21,9 @@ the server runs on localhost and port 80.
 you can also see the confidence value for each query in this mode.
 
 5) you can also pull the docker container and run that instead.
-use commands:	1)"docker pull mohsen78/query-correction"
-				2)"docker run -d -p 80:80 query-correction:latest"
+
+use commands:	
+	1)"docker pull mohsen78/query-correction"
+	2)"docker run -d -p 80:80 query-correction:latest"
+
 the container is now running and can be accessed by visiting: http://localhost:80
